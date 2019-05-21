@@ -64,7 +64,7 @@ public class PlotBuilderImpl implements PlotBuilder {
     }
 
     @Override
-    public PlotBuilder markevery(String arg) {
+    public PlotBuilder markevery(int arg) {
         return line2DBuilder.markevery(arg);
     }
 
