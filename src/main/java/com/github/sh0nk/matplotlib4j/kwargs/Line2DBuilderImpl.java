@@ -42,4 +42,9 @@ public class Line2DBuilderImpl<T extends Builder> implements Line2DBuilder<T> {
         return innerBuilder.addToKwargs("marker", arg);
     }
 
+    @Override
+    public T markevery(String arg) {
+        return innerBuilder.addToKwargs("markevery", arg);
+    }
+
 }

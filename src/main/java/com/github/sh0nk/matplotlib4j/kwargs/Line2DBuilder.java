@@ -16,4 +16,6 @@ public interface Line2DBuilder<T extends Builder> extends KwargsBuilder {
 
     T marker(String arg);
 
+    T markevery(String arg);
+
 }
